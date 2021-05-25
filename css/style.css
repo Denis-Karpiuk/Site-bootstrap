@@ -1,0 +1,170 @@
+html,
+body {
+	height: 100%;
+	overflow-x: hidden;
+} /*убираем отступ справа, который пока непонятно почему появился*/
+
+.active {
+	background-color: red;
+}
+
+.organaisation__tittle h1 {
+	color: #000000;
+	font-family: 'Open Sans - Extrabold';
+	font-size: 67px;
+	font-weight: 300;
+	line-height: 65px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.do-you__border_bottom {
+	border-bottom: 2px solid #ececec;
+}
+
+.tittle h1 {
+	color: #000000;
+	font-family: 'Open Sans';
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 55px;
+	text-transform: uppercase;
+}
+
+.products__tittle h1 {
+	color: #000000;
+	font-family: 'Open Sans - Semibold';
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.subtittle p {
+	color: #000000;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.border-down__border {
+	width: 132px;
+	height: 0px;
+	border-bottom: 3px solid #ff2d2d;
+	text-align: right;
+}
+
+.bord3 {
+	width: 132px;
+	height: 0px;
+	border-bottom: 3px solid #ff2d2d;
+}
+
+.img-wrap {
+	position: relative;
+}
+
+.img-wrap p {
+	position: absolute;
+	left: 0;
+	bottom: -16px;
+	width: 100%;
+	text-align: center;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+.footer__text p {
+	color: #b8b8b8;
+	font-family: 'Open Sans';
+	font-size: 16px;
+}
+
+.do-you__border_bottom {
+	border-bottom: 2px solid #ececec;
+}
+
+.tittle h1 {
+	color: #000000;
+	font-family: 'Open Sans';
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.products__tittle h1 {
+	color: #000000;
+	font-family: 'Open Sans - Semibold';
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* .subtittle p {
+	color: #000000;
+	font-family: 'Arial';
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+} */
+
+textarea {
+	max-height: 40px;
+}
+
+.form-contacts {
+	font-size: small;
+}
+
+.subcribe__title h1 {
+	font-size: 24px;
+}
+
+/* .form-contacts__col p {
+	margin: 0px;
+}
+
+.team__social p {
+	margin: 0;
+}
+
+.team__subtittle p {
+	margin: 0;
+} */
+
+.ared {
+	color: white;
+	font-weight: bold;
+}
+
+@media (max-width: 576px) {
+	.organaisation__tittle h1 {
+		font-size: 35px;
+		line-height: 35px;
+	}
+}
+
+@media (max-width: 768px) {
+	.organaisation__tittle h1 {
+		font-size: 50px;
+		line-height: 50px;
+	}
+	.btn {
+		max-width: 120px;
+		max-height: 40px;
+		font-size: small;
+	}
+}
+
+@media (max-width: 991px) {
+	.organaisation__tittle h1 {
+		font-size: 60px;
+		line-height: 60px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.organaisation__tittle h1 {
+		font-size: 60px;
+		line-height: 60px;
+	}
+}
