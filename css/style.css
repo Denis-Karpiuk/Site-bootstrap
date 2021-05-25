@@ -1,14 +1,4 @@
-html,
-body {
-	height: 100%;
-	overflow-x: hidden;
-} /*убираем отступ справа, который пока непонятно почему появился*/
-
-.active {
-	background-color: red;
-}
-
-.organaisation__tittle h1 {
+.organisation__tittle h1 {
 	color: #000000;
 	font-family: 'Open Sans - Extrabold';
 	font-size: 67px;
@@ -18,32 +8,23 @@ body {
 	font-weight: bold;
 }
 
-.do-you__border_bottom {
-	border-bottom: 2px solid #ececec;
-}
-
-.tittle h1 {
+.subtittle {
 	color: #000000;
-	font-family: 'Open Sans';
-	font-size: 30px;
-	font-weight: 500;
-	line-height: 55px;
-	text-transform: uppercase;
+	font-family: 'Open Sans - Extrabold';
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 30px;
 }
 
 .products__tittle h1 {
 	color: #000000;
-	font-family: 'Open Sans - Semibold';
-	font-size: 24px;
+	font-family: 'Open Sans';
+	font-size: 35px;
 	font-weight: bold;
 }
 
-.subtittle p {
-	color: #000000;
-	font-family: 'Open Sans';
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 28px;
+.do-you__border_bottom {
+	border-bottom: 2px solid #ececec;
 }
 
 .border-down__border {
@@ -53,24 +34,30 @@ body {
 	text-align: right;
 }
 
-.bord3 {
-	width: 132px;
-	height: 0px;
-	border-bottom: 3px solid #ff2d2d;
+.tittle h1 {
+	color: #000000;
+	font-family: 'Open Sans';
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 55px;
+	text-transform: uppercase;
 }
 
-.img-wrap {
-	position: relative;
+.active {
+	background-color: red;
+	font-weight: bold;
 }
 
-.img-wrap p {
-	position: absolute;
-	left: 0;
-	bottom: -16px;
-	width: 100%;
-	text-align: center;
-	color: #ffffff;
-	background-color: #000000;
+.menu__link a {
+	font-size: 22px;
+}
+
+.galery-product img {
+	max-width: 200px;
+}
+
+.photo img {
+	max-width: 200px;
 }
 
 .footer__text p {
@@ -79,36 +66,8 @@ body {
 	font-size: 16px;
 }
 
-.do-you__border_bottom {
-	border-bottom: 2px solid #ececec;
-}
-
-.tittle h1 {
-	color: #000000;
-	font-family: 'Open Sans';
-	font-size: 24px;
-	font-weight: 700;
-	line-height: 30px;
-	text-transform: uppercase;
-}
-
-.products__tittle h1 {
-	color: #000000;
-	font-family: 'Open Sans - Semibold';
-	font-size: 18px;
-	font-weight: bold;
-}
-
-/* .subtittle p {
-	color: #000000;
-	font-family: 'Arial';
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 30px;
-} */
-
 textarea {
-	max-height: 40px;
+	max-height: 80px;
 }
 
 .form-contacts {
@@ -119,27 +78,25 @@ textarea {
 	font-size: 24px;
 }
 
-/* .form-contacts__col p {
-	margin: 0px;
-}
-
-.team__social p {
-	margin: 0;
-}
-
-.team__subtittle p {
-	margin: 0;
-} */
-
 .ared {
 	color: white;
 	font-weight: bold;
 }
+@media (max-width: 1200px) {
+	.organisation__tittle h1 {
+		font-size: 60px;
+		line-height: 60px;
+	}
+}
 
-@media (max-width: 576px) {
-	.organaisation__tittle h1 {
-		font-size: 35px;
-		line-height: 35px;
+@media (max-width: 991px) {
+	.ared {
+		color: red;
+		font-weight: bold;
+	}
+	.active {
+		background-color: black;
+		font-weight: bold;
 	}
 }
 
@@ -155,16 +112,20 @@ textarea {
 	}
 }
 
-@media (max-width: 991px) {
-	.organaisation__tittle h1 {
-		font-size: 60px;
-		line-height: 60px;
+@media (max-width: 576px) {
+	.organisation__tittle h1 {
+		font-size: 35px;
+		line-height: 35px;
 	}
 }
+.subtittle {
+	color: #000000;
+	font-family: 'Open Sans - Extrabold';
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+}
 
-@media (max-width: 1200px) {
-	.organaisation__tittle h1 {
-		font-size: 60px;
-		line-height: 60px;
-	}
+.photo img {
+	max-width: 100px;
 }

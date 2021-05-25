@@ -1,20 +1,6 @@
 window.onload = function () {
-    var kateImage = document.getElementById('kate');
-    kateImage.onmouseover = function () {
-        alert('She is Kate my pain!')
-    }
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
+	var kateImage = document.getElementById('bootstrap')
+	kateImage.onmouseover = function () {
+		alert('This is bootstrap!')
+	}
 }
